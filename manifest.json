@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "New Tab on Launch",
+  "version": "1.0",
+  "description": "Opens a new tab when you launch Chrome. So you can quickly search something while 'Continue where you left off' is enabled.",
+
+  "permissions": ["tabs"],
+
+  "background": {
+    "service_worker": "background.js"
+  },
+
+  "icons": {
+    "48": "images/icon_48.png",
+    "128": "images/icon_128.png"
+  }
+}
