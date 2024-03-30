@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "New Tab on Launch",
+  "name": "Tab Managerr",
   "version": "1.0",
-  "description": "Opens a new tab when you launch Chrome. So you can quickly search something while 'Continue where you left off' is enabled.",
+  "description": "Manage what happens to your tabs when you launch Chrome. ADD MORE LATER",
 
   "permissions": ["tabs", "tabGroups"],
 
