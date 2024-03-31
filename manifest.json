@@ -3,8 +3,9 @@
   "name": "Tab Managerr",
   "version": "1.0",
   "description": "Manage what happens to your tabs when you launch Chrome. ADD MORE LATER",
+  "options_page": "options.html",
 
-  "permissions": ["tabs", "tabGroups"],
+  "permissions": ["tabs", "tabGroups", "storage"],
 
   "background": {
     "service_worker": "background.js"
